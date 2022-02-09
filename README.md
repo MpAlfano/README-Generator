@@ -16,7 +16,7 @@
 
   ## License:
 
-  ![License](https://img.shields.io/badge/License-ApacheLicense 2.0-blue.svg?style=plastic)
+  ![License](https://img.shields.io/badge/License-Apache-License 2.0-blue.svg?style=plastic)
 
   ## Contributing:
 
