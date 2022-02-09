@@ -5,41 +5,41 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: 'input',
-        message: 'What is the project title?',
-        name: 'projectTitle',
-    },
-    {
-        type: 'input',
-        message: 'Project description:',
-        name: 'description',
-    },
-    {
-        type: 'input',
-        message: 'Installation instructions:',
-        name: 'installation',
-    },
-    {
-        type: 'input',
-        message: 'Usage information:',
-        name: 'usage',
-    },
-    {
-        type: 'input',
-        message: 'contribution guidelines:',
-        name: 'contribution',
-    },
-    {
-        type: 'input',
-        message: 'Test instructions:',
-        name: 'testInstructions',
-    },
+    // {
+    //     type: 'input',
+    //     message: 'What is the project title?',
+    //     name: 'projectTitle',
+    // },
+    // {
+    //     type: 'input',
+    //     message: 'Project description:',
+    //     name: 'description',
+    // },
+    // {
+    //     type: 'input',
+    //     message: 'Installation instructions:',
+    //     name: 'installation',
+    // },
+    // {
+    //     type: 'input',
+    //     message: 'Usage information:',
+    //     name: 'usage',
+    // },
+    // {
+    //     type: 'input',
+    //     message: 'Contribution guidelines:',
+    //     name: 'contribution',
+    // },
+    // {
+    //     type: 'input',
+    //     message: 'Test instructions:',
+    //     name: 'testInstructions',
+    // },
     {
         type: 'list',
-        message: 'License:',
+        message: 'Choose a license:',
         name: 'license',
-        choices: ["Apache_2.0", "GPLv3", "MIT",],
+        choices: ["Apache 2.0 License", "GNU General Public License v3.0", "The MIT License", "Mozilla Public License 2.0"],
     },
     {
         type: 'input',
