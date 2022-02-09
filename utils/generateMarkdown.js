@@ -7,42 +7,46 @@ function renderLicenseBadge(license) {
     case 'Apache 2.0 License':
       return `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
     case `GNU General Public License v3.0`:
-      return 
+      return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
     case `The MIT License`:
-      return
+      return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
     case `Mozilla Public License 2.0`:
-      return
+      return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`
   }
 
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+
 function renderLicenseLink(license) {
   switch (license) {
     case 'Apache 2.0 License':
       return `[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)`
     case `GNU General Public License v3.0`:
-      return 
+      return `(https://www.gnu.org/licenses/gpl-3.0)`
     case `The MIT License`:
-      return
+      return `(https://opensource.org/licenses/MIT)`
     case `Mozilla Public License 2.0`:
-      return
+      return `(https://opensource.org/licenses/MPL-2.0)`
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+
 function renderLicenseSection(license) {
   switch (license) {
     case 'Apache 2.0 License':
-      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`
+      return `Apache License
+      Version 2.0, January 2004`
     case `GNU General Public License v3.0`:
-      return 
+      return `GNU GENERAL PUBLIC LICENSE
+      Version 3, 29 June 2007`
     case `The MIT License`:
-      return
+      return `The MIT License`
     case `Mozilla Public License 2.0`:
-      return
+      return `Mozilla Public License 2.0 (MPL-2.0)`
   }
 }
 
@@ -82,7 +86,7 @@ function generateMarkdown(data) {
 
   ${data.testInstructions}
 
-  ##Questions?
+  ## Questions?
   
   Contact me at:
   https://github.com/${data.username}/
