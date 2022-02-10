@@ -1,25 +1,31 @@
 
   ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-  # Testing Readme
+  # README Generator
 
   ## Description
-  Using my readme generator to save time creating a readme
+  Creating a quality README generator that can be used for future projects. Being able to create a README in seconds will save time!
 
   ## Table of Contents:
   * [INSTALLATION](#installation)  
-  * [USAGE](#usage)  
+  * [DEMO](#demo)  
+  * [USAGE](#usage)
   * [LICENSE](#license)  
-  * [CONTRIBUTING](#contributing)  
+  * [CONTRIBUTING](#contributing) 
   * [TESTS](#tests)  
   * [QUESTIONS](#questions)  
 
   ## Installation
 
-  npm i
+  To install run npm install
+  Then run node index.js
+
+  ## Demo
+
+  ![README demo](/assets/demo.png)
 
   ## Usage
 
-  Anyone can use
+  An application to generate a README for any repository quickly to save time.
 
   ## License
 
@@ -30,7 +36,7 @@
 
   ## Contributing
 
-  mpalfano
+  Mpalfano
 
   ## Tests
 
