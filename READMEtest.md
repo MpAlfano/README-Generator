@@ -1,9 +1,9 @@
 
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   # Testing Readme
 
   ## Description
-  Using my readme generator to save time creating a readme
+  Using a readme generator to create a quality readme
 
   ## Table of Contents:
   * [INSTALLATION](#installation)  
@@ -15,7 +15,7 @@
 
   ## Installation
 
-  npm i
+  npm install
 
   ## Usage
 
@@ -23,10 +23,10 @@
 
   ## License
 
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)  
-  [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)  
-  Apache License
-      Version 2.0, January 2004
+  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)  
+  (https://www.gnu.org/licenses/gpl-3.0)  
+  GNU GENERAL PUBLIC LICENSE
+      Version 3, 29 June 2007
 
   ## Contributing
 
