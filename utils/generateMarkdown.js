@@ -61,7 +61,8 @@ function generateMarkdown(data) {
   ${badge}
   # ${data.projectTitle}
 
-  ## ${data.description}
+  ## Description
+  ${data.description}
 
   ## Table of Contents:
 
@@ -75,7 +76,8 @@ function generateMarkdown(data) {
 
   ## License:
 
-  ${link}
+  ${badge}  
+  ${link}  
   ${licenseDescription}
 
   ## Contributing:
@@ -89,7 +91,9 @@ function generateMarkdown(data) {
   ## Questions?
   
   Contact me at:
-  https://github.com/${data.username}/
+
+  https://github.com/${data.username}/  
+
   ${data.email}
 
 `;
