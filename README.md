@@ -1,19 +1,25 @@
 
   ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-  # test
+  # Test
 
   ## Description
-  readme
+  Readme test
 
   ## Table of Contents:
+  * [INSTALLATION](#installation)  
+  * [USAGE](#usage)  
+  * [LICENSE](#license)  
+  * [CONTRIBUTING](#contributing)  
+  * [TESTS](#tests)  
+  * [CONTACT](#contact)  
 
   ## Installation:
 
-  test
+  npm i
 
   ## Usage:
 
-  test
+  open to public
 
   ## License:
 
@@ -24,17 +30,17 @@
 
   ## Contributing:
 
-  hi
+  MpAlfano
 
   ## Tests:
 
-  test
+  npm test
 
   ## Questions?
   
   Contact me at:
 
-  https://github.com/mpa/  
+  https://github.com/mpalfano/  
 
-  mpalfano
+  mpalfano4@gmail.com
 

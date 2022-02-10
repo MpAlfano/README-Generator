@@ -56,7 +56,6 @@ function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license)
   const link = renderLicenseLink(data.license)
   const licenseDescription = renderLicenseSection(data.license)
-  console.log(renderLicenseBadge)
   return `
   ${badge}
   # ${data.projectTitle}
@@ -65,6 +64,12 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents:
+  * [INSTALLATION](#installation)  
+  * [USAGE](#usage)  
+  * [LICENSE](#license)  
+  * [CONTRIBUTING](#contributing)  
+  * [TESTS](#tests)  
+  * [CONTACT](#contact)  
 
   ## Installation:
 
