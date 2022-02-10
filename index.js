@@ -71,7 +71,7 @@ function init() {
         .then(function (data) {
             const response = generateMarkdown(data, questions);
             console.log(data);
-            writeToFile("READMEtest2.md", response)
+            writeToFile("README.md", response)
         })
 }
 
