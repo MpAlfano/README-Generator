@@ -36,19 +36,4 @@ https://user-images.githubusercontent.com/96558916/153505490-2761d641-952c-45d6-
   Apache License
       Version 2.0, January 2004
 
-  ## Contributing
-
-  Mpalfano
-
-  ## Tests
-
-  npm test
-
-  ## Questions
-  
-  Contact me at:
-
-  https://github.com/mpalfano/  
-
-  mpalfano4@gmail.com
 
