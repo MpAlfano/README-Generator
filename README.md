@@ -21,7 +21,9 @@
 
   ## Demo
 
-  ![README demo](/assets/demo.png)
+https://user-images.githubusercontent.com/96558916/153503747-84673a09-836f-4cdf-9df6-3223d30c20c5.mp4
+
+  ![README demo](./assets/demo.png)
 
   ## Usage
 
