@@ -23,7 +23,6 @@
 
 https://user-images.githubusercontent.com/96558916/153505490-2761d641-952c-45d6-9fec-039d80c038ac.mp4
 
-  ![README demo](./assets/demo.png)
 
   ## Usage
 
